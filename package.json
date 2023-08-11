@@ -1,0 +1,28 @@
+{
+  "name": "ondc-fis-specifications",
+  "version": "1.0.0",
+  "description": "These specifications are to enable ONDC Network Participants to expose or consume financial services on ONDC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ONDC-Official/ONDC-FIS-Specifications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ONDC-Official/ONDC-FIS-Specifications/issues"
+  },
+  "homepage": "https://github.com/ONDC-Official/ONDC-FIS-Specifications#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
